@@ -319,7 +319,7 @@ pald <- function(D, show.plot = TRUE, layout = NULL, show.labels = TRUE, only_st
   if (show.plot == TRUE) {
     plot_community_graphs(C,
                           layout = layout, show.labels = show.labels, only_strong = only_strong,
-                          emph_strong = emph_strong, edge.width.factor = edge.width.factor, vertex.lab = vertex.lab, colors = colors, vertex.color.vec = vertex.color.vec, vertex.size = vertex.size
+                          emph_strong = emph_strong, edge.width.factor = edge.width.factor, vertex.lab = vertex.lab, colors = colors, vertex.color.vec = vertex.color.vec, vertex.size = vertex.size, vertex.label.cex = vertex.label.cex
     )
   }
 
