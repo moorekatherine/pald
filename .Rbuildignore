@@ -4,4 +4,7 @@
 ^data-raw$
 ^README\.Rmd$
 ^\.github$
-^pald_package\.bib$
+^pald\_package\.bib$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
