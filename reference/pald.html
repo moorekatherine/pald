@@ -70,25 +70,39 @@ components of the graph of strong ties colored by connected component.</p>
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
     <dl><dt>d</dt>
 <dd><p>A matrix of pairwise distances or a <code><a href="https://rdrr.io/r/stats/dist.html" class="external-link">dist</a></code> object.</p></dd>
+
+
 <dt>show_plot</dt>
 <dd><p>Set to <code>TRUE</code> to display plot; the default is <code>TRUE</code>.</p></dd>
+
+
 <dt>show_labels</dt>
 <dd><p>Set to <code>FALSE</code> to omit vertex labels (to display a subset
 of labels, use optional parameter <code>vertex.label</code> to modify the label list).
 Default: <code>TRUE</code>.</p></dd>
+
+
 <dt>only_strong</dt>
 <dd><p>Set to <code>TRUE</code> if only strong ties, G_strong, should be
 displayed; the default <code>FALSE</code> will show both strong (colored by connected
 component) and weak ties (in gray).</p></dd>
+
+
 <dt>emph_strong</dt>
 <dd><p>Numeric. The numeric factor by which the edge widths of
 strong ties are emphasized in the display; the default is <code>2</code>.</p></dd>
+
+
 <dt>edge_width_factor</dt>
 <dd><p>Numeric. Modify to change displayed edge widths.
 Default: <code>50</code>.</p></dd>
+
+
 <dt>colors</dt>
 <dd><p>A vector of display colors, if none is given a default list
 (of length 24) is provided.</p></dd>
+
+
 <dt>...</dt>
 <dd><p>Optional parameters to pass to the <code><a href="https://rdrr.io/pkg/igraph/man/plot.igraph.html" class="external-link">igraph::plot.igraph</a></code>.
 function. Some commonly passed arguments include:</p><ul><li><p><code>layout</code>  A layout for the graph.  If none is specified, FR-graph
@@ -100,10 +114,13 @@ the rownames of <code>c</code> are used</p></li>
 <li><p><code>vertex.label.cex</code> A numeric value for modifying the vertex label size.
 (default = <code>1</code>)</p></li>
 </ul></dd>
+
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
-    <p>A list consisting of:</p><ul><li><p><code>C</code>: the matrix of cohesion values</p></li>
+    
+
+<p>A list consisting of:</p><ul><li><p><code>C</code>: the matrix of cohesion values</p></li>
 <li><p><code>local_depths</code>: a vector of local depths</p></li>
 <li><p><code>clusters</code>: a vector of (community) cluster labels</p></li>
 <li><p><code>threshold</code>: the threshold above which cohesion is considered
@@ -169,7 +186,7 @@ Sci., 119(4), 2022.</p>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.2.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.4.</p>
 </div>
 
     </footer></div>
