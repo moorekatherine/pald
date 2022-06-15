@@ -1,6 +1,6 @@
 Partitioned Local Depth
 ================
-Lucy D’Agostino McGowan, Katherine Moore, and Kenneth Berenhaut
+Katherine Moore, Kenneth Berenhaut, and Lucy D’Agostino McGowan
 January 2022
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
